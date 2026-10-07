@@ -1,0 +1,36 @@
+:root { --bg: #f5f3ee; --card: #fff; --ink: #1d2433; --ink-2: #5a6274; --line: #e2ded4; --accent: #6b3fd6; --hl: #fff1a8; color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 28px; }
+.tag { margin: 0; font: 600 .78rem/1 ui-monospace, Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { margin: 10px 0 6px; font-size: clamp(1.7rem, 1.2rem + 2vw, 2.4rem); line-height: 1.1; }
+.sub { margin: 0; color: var(--ink-2); }
+.mode { margin: 10px 0 0; font-size: .88rem; padding: 8px 12px; background: #efe9ff; border-radius: 8px; color: #3d2a7a; }
+main { margin-top: 18px; }
+.ask { display: flex; gap: 8px; }
+.ask input { flex: 1; min-width: 0; font: inherit; padding: 12px 14px; border: 1.5px solid var(--line); border-radius: 10px; background: #fff; }
+.ask input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+.ask button { font: 600 1rem system-ui; padding: 0 18px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; }
+.chips { display: flex; gap: 8px; overflow-x: auto; padding: 12px 0 4px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chips button { flex: none; font: .88rem system-ui; padding: 7px 12px; border-radius: 99px; border: 1px solid var(--line); background: #fff; color: var(--ink); cursor: pointer; }
+.log { display: grid; gap: 14px; margin-top: 14px; }
+.turn { background: var(--card); border-radius: 12px; padding: 14px 16px; box-shadow: 0 1px 2px rgba(0,0,0,.05); }
+.q { margin: 0 0 8px; font-weight: 700; }
+blockquote { margin: 0; padding: 10px 12px; background: #faf8f3; border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; }
+mark { background: var(--hl); padding: 0 1px; border-radius: 2px; }
+.gen { margin: 0 0 10px; }
+.sources { margin: 8px 0 0; font-size: .9rem; }
+.src { color: var(--accent); }
+details { margin-top: 8px; font-size: .93rem; color: var(--ink-2); }
+summary { cursor: pointer; }
+.muted { color: var(--ink-2); }
+.how { margin-top: 28px; background: var(--card); border-radius: 12px; padding: 14px 16px; }
+.how h2 { margin: 0 0 8px; font-size: 1.1rem; } .how h3 { font-size: 1rem; margin: 14px 0 6px; }
+.how ol { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; color: var(--ink-2); }
+.how strong { color: var(--ink); }
+.docs { margin: 0; padding-left: 1.2em; }
+footer { padding: 24px 16px 40px; font-size: .9rem; color: var(--ink-2); }
+a { color: var(--ink); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }

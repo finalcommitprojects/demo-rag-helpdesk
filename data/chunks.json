@@ -1,0 +1,293 @@
+{
+ "college": "Sample Institute of Technology",
+ "docs": [
+  {
+   "file": "academic-calendar",
+   "title": "Academic Calendar 2026-27",
+   "pages": 1
+  },
+  {
+   "file": "attendance-policy",
+   "title": "Attendance Policy",
+   "pages": 1
+  },
+  {
+   "file": "examination-rules",
+   "title": "Examination Rules",
+   "pages": 2
+  },
+  {
+   "file": "hostel-rules",
+   "title": "Hostel Rules",
+   "pages": 1
+  },
+  {
+   "file": "library-rules",
+   "title": "Library Rules",
+   "pages": 1
+  },
+  {
+   "file": "placement-policy",
+   "title": "Placement Policy",
+   "pages": 2
+  }
+ ],
+ "chunks": [
+  {
+   "id": 0,
+   "doc": "academic-calendar",
+   "title": "Academic Calendar 2026-27",
+   "page": 1,
+   "heading": "Odd semester (August to December 2026)",
+   "text": "Classes for the odd semester begin on 4 August 2026. The first internal test (CIE 1) is held from 15 to 19 September and the second internal test (CIE 2) from 27 to 31 October. The last working day is 20 November. Semester end examinations (SEE) run from 1 to 19 December 2026, and results are announced by 20 January 2027."
+  },
+  {
+   "id": 1,
+   "doc": "academic-calendar",
+   "title": "Academic Calendar 2026-27",
+   "page": 1,
+   "heading": "Even semester (January to May 2027)",
+   "text": "Classes for the even semester begin on 4 January 2027. CIE 1 is held from 15 to 19 February and CIE 2 from 29 March to 2 April. The last working day is 30 April. Semester end examinations run from 10 to 28 May 2027."
+  },
+  {
+   "id": 2,
+   "doc": "academic-calendar",
+   "title": "Academic Calendar 2026-27",
+   "page": 1,
+   "heading": "Project reviews",
+   "text": "Final-year project review 1 is held in the week of 7 September and review 2 in the week of 12 October. The phase 1 final review is in the week of 16 November. The final project demonstration for eighth-semester students is from 12 to 16 April 2027."
+  },
+  {
+   "id": 3,
+   "doc": "academic-calendar",
+   "title": "Academic Calendar 2026-27",
+   "page": 1,
+   "heading": "Holidays",
+   "text": "Holidays follow the state government list, which the office publishes on the notice board and the student portal in July. Classes missed because of a declared holiday are rescheduled on Saturdays."
+  },
+  {
+   "id": 4,
+   "doc": "attendance-policy",
+   "title": "Attendance Policy",
+   "page": 1,
+   "heading": "Minimum attendance",
+   "text": "A student must have at least 85 percent attendance in each course to be eligible to write the semester end examination (SEE) in that course."
+  },
+  {
+   "id": 5,
+   "doc": "attendance-policy",
+   "title": "Attendance Policy",
+   "page": 1,
+   "heading": "Condonation between 75 and 85 percent",
+   "text": "If attendance is between 75 and 85 percent because of illness, the student may apply for condonation. A medical certificate must be submitted to the class advisor within 7 days of returning to college. Condonation is approved by the Head of Department, and at most 10 percent can be condoned."
+  },
+  {
+   "id": 6,
+   "doc": "attendance-policy",
+   "title": "Attendance Policy",
+   "page": 1,
+   "heading": "Below 75 percent",
+   "text": "A student with less than 75 percent attendance in a course is not eligible for the SEE in that course and must re-register for the course in the next semester it is offered."
+  },
+  {
+   "id": 7,
+   "doc": "attendance-policy",
+   "title": "Attendance Policy",
+   "page": 1,
+   "heading": "On duty (OD)",
+   "text": "Time spent representing the college in events, sports or hackathons counts as present, provided the faculty coordinator approves the OD request before the event."
+  },
+  {
+   "id": 8,
+   "doc": "attendance-policy",
+   "title": "Attendance Policy",
+   "page": 1,
+   "heading": "Checking your attendance",
+   "text": "Attendance for every course is shown on the student portal and is updated every Friday. Report any mistake to the course teacher within one week."
+  },
+  {
+   "id": 9,
+   "doc": "examination-rules",
+   "title": "Examination Rules",
+   "page": 1,
+   "heading": "Marks and passing",
+   "text": "Each course has 50 marks of continuous internal evaluation (CIE) and a semester end examination (SEE) of 100 marks scaled down to 50. CIE marks come from two internal tests of 20 marks each and assignments worth 10 marks. To pass, a student needs at least 40 percent in the SEE (20 out of 50) and at least 40 percent overall."
+  },
+  {
+   "id": 10,
+   "doc": "examination-rules",
+   "title": "Examination Rules",
+   "page": 1,
+   "heading": "Make-up test",
+   "text": "A make-up internal test is allowed only for medical reasons. Apply to the class advisor within 3 days of the missed test with a medical certificate. Only one make-up test is allowed per course in a semester."
+  },
+  {
+   "id": 11,
+   "doc": "examination-rules",
+   "title": "Examination Rules",
+   "page": 1,
+   "heading": "Revaluation and photocopy",
+   "text": "Students may apply for revaluation of an SEE answer script within 7 days of the results. The fee is 500 rupees per course. A photocopy of the answer script can be requested within the same 7 days for 300 rupees per course."
+  },
+  {
+   "id": 12,
+   "doc": "examination-rules",
+   "title": "Examination Rules",
+   "page": 2,
+   "heading": "In the examination hall",
+   "text": "A hall ticket and the college ID card are compulsory for every examination. Students may enter up to 30 minutes after the start, and may not leave during the first 60 minutes."
+  },
+  {
+   "id": 13,
+   "doc": "examination-rules",
+   "title": "Examination Rules",
+   "page": 2,
+   "heading": "Calculators and phones",
+   "text": "Non-programmable scientific calculators such as the Casio fx-991ES are allowed. Programmable calculators are not allowed. Mobile phones and smart watches must not be brought into the hall; a phone found on a student is treated as malpractice."
+  },
+  {
+   "id": 14,
+   "doc": "examination-rules",
+   "title": "Examination Rules",
+   "page": 2,
+   "heading": "Malpractice",
+   "text": "Every case of malpractice is reported to the examination committee, whose decision is final. There are no grace marks."
+  },
+  {
+   "id": 15,
+   "doc": "hostel-rules",
+   "title": "Hostel Rules",
+   "page": 1,
+   "heading": "In-time",
+   "text": "Hostel in-time is 9:30 pm on weekdays and 10:00 pm on Saturdays and Sundays. Late entries are recorded at the gate, and after three late entries in a month the student's parents are informed."
+  },
+  {
+   "id": 16,
+   "doc": "hostel-rules",
+   "title": "Hostel Rules",
+   "page": 1,
+   "heading": "Mess timings",
+   "text": "Breakfast is served from 7:15 to 9:00 am, lunch from 12:30 to 2:00 pm, evening snacks from 4:30 to 5:30 pm and dinner from 7:30 to 9:15 pm."
+  },
+  {
+   "id": 17,
+   "doc": "hostel-rules",
+   "title": "Hostel Rules",
+   "page": 1,
+   "heading": "Visitors",
+   "text": "Visitors are allowed only in the hostel lobby, between 4:00 and 7:00 pm, and must sign the visitors register."
+  },
+  {
+   "id": 18,
+   "doc": "hostel-rules",
+   "title": "Hostel Rules",
+   "page": 1,
+   "heading": "Going home or on leave",
+   "text": "Apply for leave on the hostel portal by 8:00 pm on the day before you leave. The warden confirms the leave with a call to a parent."
+  },
+  {
+   "id": 19,
+   "doc": "hostel-rules",
+   "title": "Hostel Rules",
+   "page": 1,
+   "heading": "Electrical appliances",
+   "text": "Electric kettles, heaters and induction stoves are not allowed in rooms. Laptops, phone chargers and table lamps are allowed."
+  },
+  {
+   "id": 20,
+   "doc": "hostel-rules",
+   "title": "Hostel Rules",
+   "page": 1,
+   "heading": "Lost and found in the hostel",
+   "text": "Items found in the hostel are kept at the hostel office. Anything not claimed within 30 days is donated."
+  },
+  {
+   "id": 21,
+   "doc": "library-rules",
+   "title": "Library Rules",
+   "page": 1,
+   "heading": "Opening hours",
+   "text": "The library is open from 8:30 am to 8:00 pm on working days and from 9:00 am to 1:00 pm on Saturdays. During semester end examinations it stays open until 10:00 pm."
+  },
+  {
+   "id": 22,
+   "doc": "library-rules",
+   "title": "Library Rules",
+   "page": 1,
+   "heading": "Borrowing books",
+   "text": "Undergraduate students can borrow 4 books for 14 days. Postgraduate students can borrow 6 books for 21 days. A book can be renewed twice if nobody has reserved it."
+  },
+  {
+   "id": 23,
+   "doc": "library-rules",
+   "title": "Library Rules",
+   "page": 1,
+   "heading": "Fines and lost books",
+   "text": "The fine for a late book is 2 rupees per day per book. A lost book must be replaced with the same edition, or the student pays twice its price."
+  },
+  {
+   "id": 24,
+   "doc": "library-rules",
+   "title": "Library Rules",
+   "page": 1,
+   "heading": "Digital library",
+   "text": "IEEE Xplore and ScienceDirect can be used free on the campus Wi-Fi. From home, log in through the college VPN with your college email."
+  },
+  {
+   "id": 25,
+   "doc": "library-rules",
+   "title": "Library Rules",
+   "page": 1,
+   "heading": "Past project reports",
+   "text": "Project reports from earlier batches are kept in the reference section. They can be read in the library but cannot be borrowed."
+  },
+  {
+   "id": 26,
+   "doc": "placement-policy",
+   "title": "Placement Policy",
+   "page": 1,
+   "heading": "Eligibility",
+   "text": "To take part in campus placements a student must register with the placement cell by 31 July and have a CGPA of at least 6.0 with no active backlogs on the day of the drive. Companies may set higher criteria."
+  },
+  {
+   "id": 27,
+   "doc": "placement-policy",
+   "title": "Placement Policy",
+   "page": 1,
+   "heading": "One offer and dream offers",
+   "text": "A student who accepts an offer of up to 8 lakh rupees per year may still apply to dream companies, whose offer is at least one and a half times the accepted one. After accepting a dream offer, the student takes part in no further drives."
+  },
+  {
+   "id": 28,
+   "doc": "placement-policy",
+   "title": "Placement Policy",
+   "page": 1,
+   "heading": "Pre-placement talks",
+   "text": "Attending the company's pre-placement talk is compulsory to sit for its drive."
+  },
+  {
+   "id": 29,
+   "doc": "placement-policy",
+   "title": "Placement Policy",
+   "page": 2,
+   "heading": "Missing a drive",
+   "text": "A student who registers for a drive and does not turn up, without informing the placement cell at least 24 hours before, is barred from the next two drives."
+  },
+  {
+   "id": 30,
+   "doc": "placement-policy",
+   "title": "Placement Policy",
+   "page": 2,
+   "heading": "Internships in the final semester",
+   "text": "Eighth-semester internships, paid or unpaid, are allowed with approval from the Head of Department, provided the student continues the final-year project."
+  },
+  {
+   "id": 31,
+   "doc": "placement-policy",
+   "title": "Placement Policy",
+   "page": 2,
+   "heading": "Offer letters",
+   "text": "Submit a copy of every offer letter to the placement cell within 7 days of receiving it."
+  }
+ ]
+}

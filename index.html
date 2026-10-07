@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>College helpdesk chatbot (RAG) | Final Commit sample project</title>
+  <meta name="description" content="Ask questions about a college's rules and get the answer from its handbook, with the page it came from. A retrieval-augmented generation (RAG) sample project by Final Commit." />
+  <link rel="icon" href="https://finalcommitprojects.github.io/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="f6b0f6cf-bb7f-4bd1-917e-acc1d8116251" data-domains="finalcommitprojects.github.io"></script>
+</head>
+<body>
+  <header>
+    <p class="tag">Sample project · NLP &amp; generative AI</p>
+    <h1>College helpdesk chatbot</h1>
+    <p class="sub">Ask about the rules of a <strong>fictional</strong> college. Answers come from its handbook, with the page they're from.</p>
+    <p id="mode" class="mode"></p>
+  </header>
+  <main>
+    <form id="form" class="ask">
+      <label class="sr" for="q">Your question</label>
+      <input id="q" type="text" placeholder="e.g. How much attendance do I need?" autocomplete="off" required />
+      <button type="submit" data-umami-event="demo-rag-ask">Ask</button>
+    </form>
+    <div class="chips" aria-label="Example questions">
+      <button type="button">What is the minimum attendance?</button>
+      <button type="button">When are the end semester exams?</button>
+      <button type="button">Can I take my calculator into the exam?</button>
+      <button type="button">What time do I need to be back in the hostel?</button>
+      <button type="button">How much is the library fine?</button>
+      <button type="button">What CGPA do I need for placements?</button>
+    </div>
+    <div id="log" class="log" aria-live="polite"></div>
+
+    <section class="how">
+      <h2>How it works</h2>
+      <ol>
+        <li><strong>Ingest</strong>: the handbook PDFs are split into <span id="count">passages</span>, each tagged with its document and page.</li>
+        <li><strong>Retrieve</strong>: your question is matched against every passage with BM25 ranking, plus a few campus synonyms (exam, SEE, test).</li>
+        <li><strong>Answer</strong>: the best passage is shown with its source. With a Gemini API key, the model writes a short answer from only those passages and cites them. If nothing matches well, it says the handbook doesn't cover it instead of guessing.</li>
+      </ol>
+      <h3>The handbook</h3>
+      <ul id="docs" class="docs"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>Sample project for a fictional college. Built by <a href="https://finalcommitprojects.github.io/?utm_source=demo&amp;utm_campaign=demo-rag-helpdesk" data-umami-event="demo-to-site">Final Commit</a></p>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
